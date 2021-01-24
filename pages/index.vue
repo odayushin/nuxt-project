@@ -12,12 +12,10 @@ export default {
       isMessageOk: true,
     };
   },
-  methods() {
-    return {
-      turn: function () {
-        this.isMessageOk = !this.isMessageOk;
-      },
-    };
+  methods: {
+    turn() {
+      this.isMessageOk = !this.isMessageOk;
+    },
   },
 };
 </script>
